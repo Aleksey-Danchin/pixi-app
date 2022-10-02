@@ -1,0 +1,28 @@
+{
+	"name": "pixi-app",
+	"version": "0.0.1",
+	"description": "pixi.js typescript webpack template",
+	"browserslist": "> 0.25%, not dead",
+	"scripts": {
+		"build": "webpack --env mode=production",
+		"start": "webpack-dev-server --env mode=development"
+	},
+	"author": "Aleksey",
+	"license": "MIT",
+	"dependencies": {
+		"pixi.js": "^6.5.1",
+		"swc-loader": "^0.2.3",
+		"webpack-cli": "^4.10.0",
+		"copy-webpack-plugin": "^11.0.0",
+		"css-minimizer-webpack-plugin": "^4.0.0",
+		"eslint": "^8.21.0",
+		"eslint-webpack-plugin": "^3.2.0",
+		"html-webpack-plugin": "^5.5.0",
+		"mini-css-extract-plugin": "^2.6.1",
+		"terser-webpack-plugin": "^5.3.3",
+		"typescript": "^4.7.4",
+		"webpack": "^5.74.0",
+		"webpack-dev-server": "^4.9.3",
+		"webpack-merge": "^5.8.0"
+	}
+}
